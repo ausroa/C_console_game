@@ -8,6 +8,9 @@
 #include <iostream>
 #include <string>
 #include "../headers/Character.h"
+#include "../headers/Character2.h"
+#include "../headers/Character3.h"
+#include "../headers/Character4.h"
 
 class Game {
 private:
@@ -16,6 +19,9 @@ private:
 
     // Character instance
     Character character;
+    Character2 character2;
+    Character3 character3;
+    Character4 character4;
 
 public:
     Game();

@@ -13,6 +13,6 @@ Character::~Character() {
 }
 
 void Character::playerName() {
-    std::cout << "What is your name? ";
+    std::cout << "Who are you fool!? ";
     std::cin >> name;
 }

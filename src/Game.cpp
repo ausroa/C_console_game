@@ -39,6 +39,17 @@ void Game::gameInit() {
     character.playerName();
     std::string name = character.getName();
 
+    std::cout << "It's dangerous out there! Bring 3 friends" << std::endl;
+    std::cout << "Who are these fools?!" << std::endl;
+    character2.player2Name();
+    character3.player3Name();
+    character4.player4Name();
+
+    std::string name2 = character2.getName();
+    std::string name3 = character3.getName();
+    std::string name4 = character4.getName();
+
     std::cout << "Welcome " << name << "!" << std::endl;
+
 }
 
