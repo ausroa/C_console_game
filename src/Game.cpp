@@ -7,6 +7,7 @@
 Game::Game() {
     // Initialize
     playerChoice = 0;
+    playerReady = 0;
 }
 
 Game::~Game() {
@@ -51,22 +52,12 @@ void Game::gameInit() {
     std::string name4 = character4.getName();
 
     std::cout << "Welcome " << name << ", " << name2 << ", ";
-    std::cout << name3 << " and " << name4 <<"!" << std::endl;
-
-
-<<<<<<< HEAD
-    std::cout << "Our adventure begins in the house of our hero, P1 /n"
-                 "After pouring countless hours in the newest F2PMMORPG /n"
-                 "'FATE OF THE FOOL Online' /n"
-                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid /n/n"
-=======
->>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
-
+    std::cout << name3 << " and " << name4 << "!" << std::endl;
 
     std::cout << "Our adventure begins in the house of our hero, P1 \n"
                  "After pouring countless hours in the newest F2PMMORPG \n"
-                 "'FATE OF THE FOOL Online' \n"
-                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
+                 "'FATE OF THE FOOL Online' \n";
+    std::cout << name << " and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
 
                  "P2: P3 make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n"
 
@@ -76,21 +67,24 @@ void Game::gameInit() {
 
                  "P2: Lets get it! \n\n"
 
-                 "P3: Ya boy needs some new exotics! \n\n" << std:endl;
+                 "P3: Ya boy needs some new exotics! \n\n" << std::endl;
+    std::cout << "========== Please select a response ========== " << std::endl;
+    std::cout << "|| 1. Reads                                  ||" << std::endl;
+    std::cout << "|| 2. Bless                                  ||" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    std::cin >> playerReady;
 
-            P1: (pick a respons)
-                A: Reads (print out P1: LEEEEEROOOOY JANGUS!)
-                B: Bless (print out P1: you guys wanna take a rip first?)
-
-        If A - Our heroes rush in and hold their own for several minutes until the raid boss'
-        health is at 50% and unleashes his ult “Fools! You’re Fucked!” wiping out our heroes.
-
-        If B - The four brave blazed souls casually stroll into the dungeon and are instantly obliterated.
-    
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
+    switch(playerReady) {
+        case 1:
+            std::cout << name << ": LEEEEEEROOOOOY JANGUS!\n" << std::endl;
+            std::cout << "Our heroes rush in and hold their own for several minutes until the raid boss'\n"
+            " health is at 50% and unleashes his ult “Fools! You’re Fucked!” wiping out our heroes.\n";
+            break;
+        case 2:
+            std::cout << name << ": you guys wanna take a rip first?\n" << std::endl;
+            std::cout << "The four brave blazed souls casually stroll into the dungeon and are instantly obliterated." << std::endl;
+            break;
+        default:
+            break;
+    }
 }

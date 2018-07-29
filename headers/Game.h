@@ -16,6 +16,7 @@ class Game {
 private:
     // Player Input
     int playerChoice;
+    int playerReady;
 
     // Character instance
     Character character;
