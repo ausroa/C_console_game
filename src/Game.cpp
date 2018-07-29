@@ -54,18 +54,8 @@ void Game::gameInit() {
     std::cout << name3 << " and " << name4 <<"!" << std::endl;
 
 
-<<<<<<< HEAD
-    std::cout << "Our adventure begins in the house of our hero, " << name << " After pouring countless hours in the newest F2PMMORPG 'FATE OF THE FOOL Online' \n\n";
-=======
-<<<<<<< HEAD
-    std::cout << "Our adventure begins in the house of our hero, P1 /n"
-                 "After pouring countless hours in the newest F2PMMORPG /n"
-                 "'FATE OF THE FOOL Online' /n"
-                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid /n/n"
-=======
->>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
 
->>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
+    std::cout << "Our adventure begins in the house of our hero, " << name << " After pouring countless hours in the newest F2PMMORPG 'FATE OF THE FOOL Online' \n\n";
 
     std::cout << name << ": and his clan mates " << name2 << ", " << name3 << ", and " << name4 << " have geared up to take on their first raid \n\n";
 
