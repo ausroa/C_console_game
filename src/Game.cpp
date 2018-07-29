@@ -51,22 +51,22 @@ void Game::gameInit() {
 
     std::cout << "Welcome " << name << "!" << std::endl;
 
-<<<<<<< HEAD
-=======
-    std::cout << "Our adventure begins in the house of our hero, P1 /n"
-                 "After pouring countless hours in the newest F2PMMORPG /n"
-                 "'FATE OF THE FOOL Online' /n"
-                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid /n/n"
 
-                 "P2: P3 make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' /n/n"
 
-                 "P3: Just be sure you and P1 take the agro so P4 and I don't get shrekt in the first wave of ads' /n/n"
+    std::cout << "Our adventure begins in the house of our hero, P1 \n"
+                 "After pouring countless hours in the newest F2PMMORPG \n"
+                 "'FATE OF THE FOOL Online' \n"
+                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
 
-                 "P4: My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? /n/n"
+                 "P2: P3 make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n"
 
-                 "P2: Lets get it! /n/n"
+                 "P3: Just be sure you and P1 take the agro so P4 and I don't get shrekt in the first wave of ads' \n\n"
 
-                 "P3: Ya boy needs some new exotics! /n/n" << std:endl;
+                 "P4: My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? \n\n"
+
+                 "P2: Lets get it! \n\n"
+
+                 "P3: Ya boy needs some new exotics! \n\n" << std:endl;
 
             P1: (pick a respons)
                 A: Reads (print out P1: LEEEEEROOOOY JANGUS!)
@@ -78,6 +78,6 @@ void Game::gameInit() {
         If B - The four brave blazed souls casually stroll into the dungeon and are instantly obliterated.
 
 
->>>>>>> 1ffc478d4bd56de1b460753aa6d6b1d202ec793f
+
 }
 
