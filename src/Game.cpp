@@ -51,7 +51,7 @@ void Game::gameInit() {
     std::string name4 = character4.getName();
 
     std::cout << "Welcome " << name << ", " << name2 << ", ";
-    std::cout << name3 << " and " << name4 <<"! \n\n" << std::endl;
+    std::cout << name3 << " and " << name4 <<"! \n" << std::endl;
 
 
 
@@ -61,7 +61,7 @@ void Game::gameInit() {
 
     std::cout << name2 << ": " << name3 << " make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n";
 
-    std::cout << name3 << ": Just be sure you and " << name << " take the agro so " << name << " and I don't get shrekt in the first wave of ads' \n\n";
+    std::cout << name3 << ": Just be sure you and " << name << " take the agro so " << name4 << " and I don't get shrekt in the first wave of ads' \n\n";
 
     std::cout << name4 << ": My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? \n\n";
 
@@ -81,16 +81,5 @@ void Game::gameInit() {
         If B - The four brave blazed souls casually stroll into the dungeon and are instantly obliterated.
     
 
-<<<<<<< HEAD
+
 */
-
-
-
-=======
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
-}
->>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
