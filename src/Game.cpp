@@ -52,22 +52,22 @@ void Game::gameInit() {
     std::cout << "Welcome " << name << "!" << std::endl;
 
 
+    std::cout << "Our adventure begins in the house of our hero, " << name << " After pouring countless hours in the newest F2PMMORPG 'FATE OF THE FOOL Online' \n\n";
 
-    std::cout << "Our adventure begins in the house of our hero, P1 \n"
-                 "After pouring countless hours in the newest F2PMMORPG \n"
-                 "'FATE OF THE FOOL Online' \n"
-                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
+    std::cout << name << ": and his clan mates " << name2 << ", " << name3 << ", and " << name4 << " have geared up to take on their first raid \n\n";
 
-                 "P2: P3 make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n"
+    std::cout << name2 << ": " << name3 << " make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n";
 
-                 "P3: Just be sure you and P1 take the agro so P4 and I don't get shrekt in the first wave of ads' \n\n"
+    std::cout << name3 << ": Just be sure you and " << name << " take the agro so " << name << " and I don't get shrekt in the first wave of ads' \n\n";
 
-                 "P4: My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? \n\n"
+    std::cout << name4 << ": My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? \n\n";
 
-                 "P2: Lets get it! \n\n"
+    std::cout << name2 << ": Lets get it! \n\n";
 
-                 "P3: Ya boy needs some new exotics! \n\n" << std:endl;
+    std::cout << name3 << ": Ya boy needs some new exotics! \n\n" << std::endl;
 
+}
+/*
             P1: (pick a respons)
                 A: Reads (print out P1: LEEEEEROOOOY JANGUS!)
                 B: Bless (print out P1: you guys wanna take a rip first?)
@@ -77,7 +77,7 @@ void Game::gameInit() {
 
         If B - The four brave blazed souls casually stroll into the dungeon and are instantly obliterated.
 
+*/
 
 
-}
 
