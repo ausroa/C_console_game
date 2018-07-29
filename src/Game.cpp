@@ -51,7 +51,7 @@ void Game::gameInit() {
     std::string name4 = character4.getName();
 
     std::cout << "Welcome " << name << ", " << name2 << ", ";
-    std::cout << name3 << " and " << name4 <<"!" << std::endl;
+    std::cout << name3 << " and " << name4 <<"! \n\n" << std::endl;
 
 
 
