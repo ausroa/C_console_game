@@ -7,6 +7,7 @@
 Game::Game() {
     // Initialize
     playerChoice = 0;
+    playerReady = 0;
 }
 
 Game::~Game() {
@@ -51,13 +52,26 @@ void Game::gameInit() {
     std::string name4 = character4.getName();
 
     std::cout << "Welcome " << name << ", " << name2 << ", ";
+<<<<<<< HEAD
     std::cout << name3 << " and " << name4 <<"! \n" << std::endl;
+=======
+<<<<<<< HEAD
+    std::cout << name3 << " and " << name4 << "!" << std::endl;
+
+    std::cout << "Our adventure begins in the house of our hero, P1 \n"
+                 "After pouring countless hours in the newest F2PMMORPG \n"
+                 "'FATE OF THE FOOL Online' \n";
+    std::cout << name << " and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
+=======
+    std::cout << name3 << " and " << name4 <<"! \n\n" << std::endl;
+>>>>>>> b41a598b1f7a6ce5859c3864b6f2e6ac9e4aeca6
 
 
 
     std::cout << "Our adventure begins in the house of our hero, " << name << " After pouring countless hours in the newest F2PMMORPG 'FATE OF THE FOOL Online' \n\n";
 
     std::cout << name << ": and his clan mates " << name2 << ", " << name3 << ", and " << name4 << " have geared up to take on their first raid \n\n";
+>>>>>>> 815147ece79da855cdd91fdd90e33f5888f960f1
 
     std::cout << name2 << ": " << name3 << " make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n";
 
@@ -67,6 +81,28 @@ void Game::gameInit() {
 
     std::cout << name2 << ": Lets get it! \n\n";
 
+<<<<<<< HEAD
+                 "P3: Ya boy needs some new exotics! \n\n" << std::endl;
+    std::cout << "========== Please select a response ========== " << std::endl;
+    std::cout << "|| 1. Reads                                  ||" << std::endl;
+    std::cout << "|| 2. Bless                                  ||" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    std::cin >> playerReady;
+
+    switch(playerReady) {
+        case 1:
+            std::cout << name << ": LEEEEEEROOOOOY JANGUS!\n" << std::endl;
+            std::cout << "Our heroes rush in and hold their own for several minutes until the raid boss'\n"
+            " health is at 50% and unleashes his ult “Fools! You’re Fucked!” wiping out our heroes.\n";
+            break;
+        case 2:
+            std::cout << name << ": you guys wanna take a rip first?\n" << std::endl;
+            std::cout << "The four brave blazed souls casually stroll into the dungeon and are instantly obliterated." << std::endl;
+            break;
+        default:
+            break;
+    }
+=======
     std::cout << name3 << ": Ya boy needs some new exotics! \n\n" << std::endl;
 
 }
@@ -82,4 +118,12 @@ void Game::gameInit() {
     
 
 
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
+>>>>>>> 815147ece79da855cdd91fdd90e33f5888f960f1
+}
+>>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
+>>>>>>> b41a598b1f7a6ce5859c3864b6f2e6ac9e4aeca6
