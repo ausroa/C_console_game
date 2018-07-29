@@ -52,12 +52,25 @@ void Game::gameInit() {
     std::string name4 = character4.getName();
 
     std::cout << "Welcome " << name << ", " << name2 << ", ";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    std::cout << name3 << " and " << name4 <<"! \n" << std::endl;
+=======
+<<<<<<< HEAD
+>>>>>>> d68cfe8663615eccbe751b8717f64bcd34b83bf0
     std::cout << name3 << " and " << name4 << "!" << std::endl;
 
     std::cout << "Our adventure begins in the house of our hero, P1 \n"
                  "After pouring countless hours in the newest F2PMMORPG \n"
                  "'FATE OF THE FOOL Online' \n";
     std::cout << name << " and his clan mates P2, P3, and P4 have geared up to take on their first raid \n\n"
+<<<<<<< HEAD
+=======
+=======
+    std::cout << name3 << " and " << name4 <<"! \n\n" << std::endl;
+>>>>>>> b41a598b1f7a6ce5859c3864b6f2e6ac9e4aeca6
+>>>>>>> d68cfe8663615eccbe751b8717f64bcd34b83bf0
 
                  "P2: P3 make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n"
 
@@ -67,6 +80,18 @@ void Game::gameInit() {
 
                  "P2: Lets get it! \n\n"
 
+<<<<<<< HEAD
+=======
+    std::cout << name2 << ": " << name3 << " make sure you have 'STRAIGHT SHAFTED' equipped and cast it every time i use 'TASTE THE RAINBOW' \n\n";
+
+    std::cout << name3 << ": Just be sure you and " << name << " take the agro so " << name4 << " and I don't get shrekt in the first wave of ads' \n\n";
+
+    std::cout << name4 << ": My healing turret is maxed out, we're boutta be OP AF. Is everyone reads? \n\n";
+
+    std::cout << name2 << ": Lets get it! \n\n";
+
+<<<<<<< HEAD
+>>>>>>> d68cfe8663615eccbe751b8717f64bcd34b83bf0
                  "P3: Ya boy needs some new exotics! \n\n" << std::endl;
     std::cout << "========== Please select a response ========== " << std::endl;
     std::cout << "|| 1. Reads                                  ||" << std::endl;
@@ -89,3 +114,16 @@ void Game::gameInit() {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+*/
+=======
+
+>>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
+>>>>>>> 815147ece79da855cdd91fdd90e33f5888f960f1
+}
+>>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
+>>>>>>> b41a598b1f7a6ce5859c3864b6f2e6ac9e4aeca6
+>>>>>>> d68cfe8663615eccbe751b8717f64bcd34b83bf0
