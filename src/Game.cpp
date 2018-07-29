@@ -28,7 +28,8 @@ void Game::mainMenu() {
     std::cout << "|| 4. Level Up               ||" << std::endl;
     std::cout << "|| 5. Shop                   ||" << std::endl;
     std::cout << "|| 6. Rest                   ||" << std::endl;
-    std::cout << "|| 7. Quit                   ||" << std::endl;
+    std::cout << "|| 7. Inventory              ||" << std::endl;
+    std::cout << "|| 8. Quit                   ||" << std::endl;
     std::cout << "===============================" << std::endl;
 
     std::cin >> playerChoice;
@@ -49,10 +50,22 @@ void Game::gameInit() {
     std::string name3 = character3.getName();
     std::string name4 = character4.getName();
 
-    std::cout << "Welcome " << name << "!" << std::endl;
+    std::cout << "Welcome " << name << ", " << name2 << ", ";
+    std::cout << name3 << " and " << name4 <<"!" << std::endl;
 
 
+<<<<<<< HEAD
     std::cout << "Our adventure begins in the house of our hero, " << name << " After pouring countless hours in the newest F2PMMORPG 'FATE OF THE FOOL Online' \n\n";
+=======
+<<<<<<< HEAD
+    std::cout << "Our adventure begins in the house of our hero, P1 /n"
+                 "After pouring countless hours in the newest F2PMMORPG /n"
+                 "'FATE OF THE FOOL Online' /n"
+                 "P1 and his clan mates P2, P3, and P4 have geared up to take on their first raid /n/n"
+=======
+>>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
+
+>>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
 
     std::cout << name << ": and his clan mates " << name2 << ", " << name3 << ", and " << name4 << " have geared up to take on their first raid \n\n";
 
@@ -76,8 +89,18 @@ void Game::gameInit() {
         health is at 50% and unleashes his ult “Fools! You’re Fucked!” wiping out our heroes.
 
         If B - The four brave blazed souls casually stroll into the dungeon and are instantly obliterated.
+    
 
+<<<<<<< HEAD
 */
 
 
 
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 76bfd235decacbe441a50ffb39492d02fffb040a
+}
+>>>>>>> 39055c00e05d295f5542268b02b5a22c1233d0ee
